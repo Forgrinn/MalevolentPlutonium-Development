@@ -1,2 +1,4 @@
-# MalevolentPlutonium
-Malevolent - Plutonium Website & Scripts custom pack.
+# Malevolent Plutonium
+
+Malevolent - Plutonium Website, Scripts \& Plugin custom pack.
+
