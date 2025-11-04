@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/MalevolentWebsite/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
       <sourceFolder url="file://$MODULE_DIR$/MalevolentWebsite/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
       <sourceFolder url="file://$MODULE_DIR$/MalevolentWebsite/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/MalevolentWebsite/tests/Feature" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/MalevolentWebsite/tests/Unit" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/brianium/paratest" />
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/carbonphp/carbon-doctrine-types" />
@@ -41,6 +43,7 @@
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/league/mime-type-detection" />
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/league/uri" />
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/league/uri-interfaces" />
+      <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/livewire/livewire" />
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/myclabs/deep-copy" />
