@@ -7,26 +7,32 @@
 #include maps/mp/zombies/_zm;         //
 ////////////////////////////////////////
 
-/////////////////////////////////////////
-// Include Chat Command Scripts        //
-/////////////////////////////////////////
-#include scripts/zm/Chat/InitCommands; //
-/////////////////////////////////////////
+/////////////////////////////////////////////////
+// Include Account Scripts                     //
+/////////////////////////////////////////////////
+#include scripts/zm/Account/AccountInitialize; //
+/////////////////////////////////////////////////
+
+///////////////////////////////////////////////
+// Include Chat Command Scripts              //
+///////////////////////////////////////////////
+#include scripts/zm/Chat/InitializeCommands; //
+///////////////////////////////////////////////
 
 main() {
     // Nothing here for now
 }
 
 init() {
-    level thread init_player();
-    level thread init_commands();
+    level thread initialize_player();
+    level thread initialize_commands();
 }
 
-init_player() {
+initialize_player() {
     for(;;)
     {
         level waittill("connected", player);
 
-        // Nothing here for now
+        player thread initialize_account();
     }
 }

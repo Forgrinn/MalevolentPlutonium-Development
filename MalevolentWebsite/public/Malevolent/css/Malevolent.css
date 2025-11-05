@@ -1,0 +1,12 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #1f2333;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

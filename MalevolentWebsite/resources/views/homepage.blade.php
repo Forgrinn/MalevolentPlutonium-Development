@@ -5,8 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{ config('app.name', 'Laravel') }} - Homepage</title>
+
+        <x-global.head/>
     </head>
     <body>
+
+
 
     </body>
 </html>

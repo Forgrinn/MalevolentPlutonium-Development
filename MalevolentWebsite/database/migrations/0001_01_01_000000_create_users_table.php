@@ -17,6 +17,12 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('rank');
+            $table->string('level');
+            $table->string('prestige');
+            $table->string('colour');
+            $table->string('money');
+            $table->string('banned');
             $table->rememberToken();
             $table->timestamps();
         });

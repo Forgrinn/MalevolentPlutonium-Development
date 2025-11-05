@@ -1,3 +1,8 @@
+/////////////////////////////////////
+// Initialize Database Function    //
+/////////////////////////////////////
+// Sets up the database connection //
+/////////////////////////////////////
 database_initialize()
 {
     config          = spawnstruct();
@@ -10,6 +15,11 @@ database_initialize()
     mysql::set_config(config);
 }
 
+/////////////////////////////////////
+// Database Query Function         //
+/////////////////////////////////////
+// Sends a query to the database   //
+/////////////////////////////////////
 database_query(stmt, params)
 {
     query = mysql::prepared_statement(stmt, params);
