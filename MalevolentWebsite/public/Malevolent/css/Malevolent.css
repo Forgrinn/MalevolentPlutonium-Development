@@ -19,8 +19,55 @@ body {
     z-index: -1;
 }
 .background img {
-    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0))); mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
     opacity: 0.2;
     overflow: hidden;
     width: 100%;
+}
+
+nav {
+    width: 100%;
+    border-bottom: 2px solid #ffffff1c;
+}
+nav .navigator {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+nav .navigator div li {
+    padding: 25px;
+    border-radius: 10px;
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.2s;
+    cursor: pointer;
+}
+nav .navigator div li:hover {
+    background: #3b82f612;
+    color: #599bfa;
+}
+nav .navigator div a {
+    font-weight: 600;
+    color: white;
+}
+nav .navigator div i {
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    padding-left: 5px;
+}
+nav .navigator div li:hover i {
+    color: #599bfa;
+    transform: rotate(180deg);
+    padding-right: 5px;
+    padding-left: 0;
+}
+nav .navigator div:nth-child(1) {
+    padding: 25px 0;
+}
+nav .navigator div:nth-child(2) {
+    display: flex;
+    justify-content: end;
+    padding: 25px 0;
 }

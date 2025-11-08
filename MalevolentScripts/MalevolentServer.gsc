@@ -31,6 +31,11 @@ main() {
 }
 
 init() {
+    setDvar("g_password", "");
+    setDvar("password", "");
+
+    level.perk_purchase_limit = 20;
+
     level thread initialize_player();
     level thread initialize_commands();
     level thread initialize_database();
@@ -40,7 +45,11 @@ initialize_player() {
     for(;;)
     {
         level waittill("connected", player);
-
         player thread initialize_account();
     }
+}
+
+initialize_player_spawn() {
+    self endon("disconnect");
+    level waittill("initial_blackscreen_passed");
 }

@@ -19,9 +19,16 @@
 // Sorts the players account data            //
 ///////////////////////////////////////////////
 initialize_account() {
-    player = database_query("SELECT * FROM user_statistics WHERE id = ?", array(self.guid));
+    account = database_query("SELECT * FROM user_statistics WHERE id = ?", array(self.guid));
 
-    if (player[0].size == 0) {
+    if (account[0].size == 0) {
         database_query("INSERT INTO `user_statistics` (`id`, `name`) VALUES (?, ?)", array(self.guid, self.name));
+        account = database_query("SELECT * FROM user_statistics WHERE id = ?", array(self.guid));
     }
+
+    if (int(account[0][0]["banned"]) == 1) {
+        utility_kick_player("                                                                                                                                                                                                                   [^5Clipstone^7] You are ^5BANNED^7                                                                                                                                                                      Appeal at ^5https://zombies.clipst.one^7");
+    }
+
+    self.pers["player-data"] = account[0][0]["level"] + ";" + account[0][0]["rank"] + ";" + account[0][0]["prestige"] + ";" + self.name + ";" + account[0][0]["color"];
 }

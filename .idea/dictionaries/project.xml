@@ -4,21 +4,28 @@
       <w>barretm</w>
       <w>blundergat</w>
       <w>blundersplat</w>
+      <w>clientkick</w>
       <w>dvar</w>
       <w>evoskorpion</w>
       <w>extclip</w>
       <w>fiveseven</w>
       <w>fivesevendw</w>
       <w>fnfal</w>
+      <w>gamemode</w>
       <w>hamr</w>
       <w>kard</w>
+      <w>mapstartlocation</w>
+      <w>nuketown</w>
       <w>rnma</w>
       <w>saritch</w>
       <w>slipgun</w>
       <w>slowgun</w>
       <w>spawnstruct</w>
+      <w>tranzit</w>
       <w>usrpg</w>
       <w>waittill</w>
+      <w>zclassic</w>
+      <w>zstandard</w>
     </words>
   </dictionary>
 </component>

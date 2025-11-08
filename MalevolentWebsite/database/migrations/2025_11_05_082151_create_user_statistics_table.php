@@ -17,7 +17,7 @@ return new class extends Migration
             $table->integer('rank')->default(0);
             $table->integer('prestige')->default(0);
             $table->integer('level')->default(1);
-            $table->string('color')->default("^7");
+            $table->integer('color')->default("7");
             $table->integer('banned')->default(0);
             $table->bigInteger('money')->default(100000);
         });

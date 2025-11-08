@@ -1,6 +1,11 @@
+///////////////////////////////////////////
+// Include Utility Scripts               //
+///////////////////////////////////////////
+#include scripts/zm/Utilities/Utilities; //
+///////////////////////////////////////////
 command_chat(args)
 {
-    // player_data = strToK(self.pers["player-data"], ";");
+    player_data = strToK(self.pers["player-data"], ";");
 
     string = "";
     iteration = 0;
@@ -15,5 +20,5 @@ command_chat(args)
         iteration += 1;
     }
 
-    say("[^1OWNER^7][^1L100^7][^1P10^7] ^1 " + self.name + " ^7>" + string);
+    say("[^" + player_data[4] + "" + utility_format_rank(int(player_data[1])) + "^7][^" + player_data[4] + "L" + player_data[0] + "^7][^" + player_data[4] + "P" + player_data[2] + "^7] ^" + player_data[4] + "" + player_data[3] + " ^7>" + string);
 }
