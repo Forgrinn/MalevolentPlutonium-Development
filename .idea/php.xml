@@ -28,7 +28,6 @@
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/laravel/pail" />
-      <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/laravel/pint" />
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/laravel/serializable-closure" />
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/laravel/prompts" />
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/phpstan/phpdoc-parser" />
@@ -144,6 +143,7 @@
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/laravel/pint" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">

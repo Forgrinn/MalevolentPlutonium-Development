@@ -13,6 +13,7 @@ command_bank_share(args)
 {
     if (!isDefined(args[1]))
         self tell("You need to input an amount to share");
+        return;
 
     if (int(args[1]) == 0)
         return;
