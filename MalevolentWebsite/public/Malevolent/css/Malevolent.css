@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     padding: 0;
     margin: 0;
     background: #1f2333;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
     overflow-x: hidden;
 }
 
@@ -70,4 +72,30 @@ nav .navigator div:nth-child(2) {
     display: flex;
     justify-content: end;
     padding: 25px 0;
+}
+
+header {
+    width: 100%;
+}
+header .header {
+    padding-top: 100px;
+}
+header .header h1 {
+    text-align: center;
+    color: white;
+}
+header .header p {
+    text-align: center;
+    color: #ffffffcc;
+}
+header .header div {
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    font-weight: 600;
+}
+header .header i {
+    color: #599bfa;
+    margin-right: 10px;
 }
