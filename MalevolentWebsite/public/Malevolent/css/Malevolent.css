@@ -105,7 +105,33 @@ header .header i {
     display: grid;
     grid-template-columns: 2.5fr 1fr;
     gap: 25px;
-    margin-top: 150px;
+    margin-top: 125px;
+}
+
+.newspaper {
+    width: 100%;
+    background: #a7a7a70d;
+    box-sizing: border-box;
+    position: relative;
+    padding: 15px 10px 15px 15px;
+    border: 2px solid #a7a7a70d;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.newspaper .title {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.newspaper .description {
+    color: #ffffffcc;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.newspaper .title,
+.newspaper .description {
+    position: relative;
+    transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
 .serverlist {
@@ -114,6 +140,7 @@ header .header i {
     box-sizing: border-box;
     border: 2px solid #a7a7a70d;
     border-radius: 10px;
+    margin-top: 50px;
 }
 .serverlist .serverlist-grid {
     width: 100%;

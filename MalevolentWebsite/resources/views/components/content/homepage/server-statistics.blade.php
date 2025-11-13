@@ -30,7 +30,7 @@
                 <div class="description">10,000</div>
             </div>
             <div class="server-statistics-grid-section">
-                <div class="title">Most Players</div>
+                <div class="title">Peak Players</div>
                 <div class="description">10,000</div>
             </div>
         </div>
