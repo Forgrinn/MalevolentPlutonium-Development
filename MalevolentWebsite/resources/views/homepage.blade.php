@@ -20,7 +20,8 @@
                 </div>
                 <div>
 
-
+                    <x-content.homepage.player-actions/>
+                    <x-content.homepage.server-actions/>
 
                 </div>
             </div>

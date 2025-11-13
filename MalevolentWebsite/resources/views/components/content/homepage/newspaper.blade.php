@@ -16,8 +16,10 @@
 ?>
 
 <div class="newspaper">
-    <div class="title" id="news-title">{{ $newspaper[0]['title'] }}</div>
-    <div class="description" id="news-description">{{ $newspaper[0]['description'] }}</div>
+    <article>
+        <h2 class="title" id="news-title">{{ $newspaper[0]['title'] }}</h2>
+        <p class="description" id="news-description">{{ $newspaper[0]['description'] }}</p>
+    </article>
     <progress
         id="newspaper-progress"
         class="progress"
