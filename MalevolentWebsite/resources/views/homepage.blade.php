@@ -8,6 +8,22 @@
         <x-global.background/>
         <x-global.navigator/>
         <x-global.header/>
+
+        <div class="container">
+            <div class="content">
+                <div>
+
+
+
+                </div>
+                <div>
+
+
+
+                </div>
+            </div>
+        </div>
+
         <x-global.footer/>
 
     </body>

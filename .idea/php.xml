@@ -144,6 +144,12 @@
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/livewire/livewire" />
       <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/srmklive/paypal" />
+      <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/php-debugbar/php-debugbar" />
+      <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/laravolt/avatar" />
+      <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/MalevolentWebsite/vendor/intervention/gif" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">

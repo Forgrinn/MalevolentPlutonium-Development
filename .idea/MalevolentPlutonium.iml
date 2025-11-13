@@ -135,6 +135,12 @@
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/barryvdh/laravel-debugbar" />
+      <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/intervention/gif" />
+      <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/intervention/image" />
+      <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/laravolt/avatar" />
+      <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/php-debugbar/php-debugbar" />
+      <excludeFolder url="file://$MODULE_DIR$/MalevolentWebsite/vendor/srmklive/paypal" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

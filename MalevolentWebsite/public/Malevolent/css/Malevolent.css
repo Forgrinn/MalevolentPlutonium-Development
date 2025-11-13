@@ -97,3 +97,33 @@ header .header i {
     color: #599bfa;
     margin-right: 10px;
 }
+
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 25px;
+}
+
+footer {
+    width: 100%;
+    border-top: 2px solid #ffffff1c;
+    margin-top: 150px;
+}
+footer .footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+footer .footer div:first-child {
+    color: white;
+    font-weight: 600;
+    padding: 50px 0;
+}
+footer .footer div:last-child {
+    color: white;
+    font-weight: 600;
+    padding: 50px 0;
+    display: flex;
+    justify-content: end;
+}
