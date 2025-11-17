@@ -14,7 +14,19 @@ command_account_prestige(args)
 {
     player_data = strToK(self.pers["player-data"], ";");
 
-    if (int(player_data[1]) == 10)
+    if (int(player_data[1]) == 10) {
         self tell("You're at max prestige you cannot go any further");
         return;
+    }
+
+    account = database_query("SELECT * FROM user_statistics WHERE id=?", array(self.guid));
+
+    if (int(account[0][0]["player_money"]) < 500000) {
+        self tell("[^5Prestige^7] You cannot afford ^5$500,000^7 to prestige");
+        return;
+    }
+
+    account = database_query("UPDATE user_statistics SET player_money=player_money-500000, player_prestige=player_prestige+1 WHERE id=?", array(self.guid));
+    next_prestige = int(player_data[1]) + 1;
+    self tell("[^5Prestige^7] You have prestiged up to ^5" + next_prestige);
 }

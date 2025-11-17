@@ -37,7 +37,7 @@ initialize_account() {
         "-----[ ^5Malevolent Zombies^7 ]-----",
         "Welcome to Malevolent, The best zombie servers",
         "Type .help for a list of commands u can use",
-        "Fully register at https://malevolent.blue",
+        "Fully register our website malevolent.website",
         "-----[ ^5Malevolent Zombies^7 ]-----"
     );
 
