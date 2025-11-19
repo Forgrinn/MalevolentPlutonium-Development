@@ -34,7 +34,7 @@
                         <a><li><i class="fa-brands fa-youtube"></i> Youtube Channel</li></a>
                     </div>
                 </div>
-                <a><li>Store</li></a>
+                <a href="/store" wire:navigate><li>Store</li></a>
             </div>
             <div>
                 <div class="menu">
