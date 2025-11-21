@@ -56,5 +56,6 @@ set mysql_db "malevolentwebsite" //
 ## License
 
 Malevolent is provided under the license specified in the repository’s `LICENSE` file.
+:)
 
 
