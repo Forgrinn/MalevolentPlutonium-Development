@@ -38,4 +38,14 @@ class UserStatistics extends Model
         'player_gambled_lost',
         'player_gambled_won',
     ];
+
+    /**
+     * The attributes that should be mutated to dates.
+     *
+     * @var array
+     */
+    protected $dates = [
+        'created_at',
+        'updated_at'
+    ];
 }

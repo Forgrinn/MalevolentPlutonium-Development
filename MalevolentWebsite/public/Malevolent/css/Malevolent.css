@@ -245,6 +245,12 @@ header .header i {
     padding-left: 39px;
     transition: 0.2s;
 }
+.newspaper .published {
+    float: right;
+    color: #ffffffcc;
+    font-size: 13px;
+    padding-top: 5px;
+}
 
 .serverlist {
     width: 100%;

@@ -11,7 +11,7 @@ Malevolent Plutonium is a custom server and tools project themed around a zombie
 
 ## Website Setup Tutorial
 
-    git clone https://github.com/DDDDec/MalevolentPlutonium.git
+    1. git clone https://github.com/DDDDec/MalevolentPlutonium.git
     2. cd malevolentwebsite
     3. copy .env.example .env
     4. composer install
