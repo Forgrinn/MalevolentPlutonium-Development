@@ -5,30 +5,48 @@
       <w>blackscreen</w>
       <w>blundergat</w>
       <w>blundersplat</w>
+      <w>clientfields</w>
       <w>clientkick</w>
       <w>cointoss</w>
+      <w>divetonuke</w>
       <w>dvar</w>
       <w>evoskorpion</w>
       <w>extclip</w>
       <w>fiveseven</w>
       <w>fivesevendw</w>
+      <w>flakjacket</w>
       <w>fnfal</w>
       <w>gamemode</w>
+      <w>getent</w>
+      <w>getentarray</w>
       <w>godmode</w>
       <w>hamr</w>
+      <w>isdefined</w>
       <w>kard</w>
       <w>levelup</w>
+      <w>linkto</w>
       <w>mapstartlocation</w>
+      <w>noicon</w>
       <w>nuketown</w>
+      <w>packa</w>
+      <w>packapunch</w>
+      <w>perksacola</w>
+      <w>playloopsound</w>
       <w>prestiged</w>
       <w>prestiges</w>
+      <w>replacefunc</w>
       <w>rnma</w>
       <w>saritch</w>
       <w>serverlist</w>
+      <w>setcursorhint</w>
+      <w>sethintstring</w>
+      <w>shutoffpapsounds</w>
       <w>slipgun</w>
       <w>slowgun</w>
       <w>spawnstruct</w>
+      <w>targetname</w>
       <w>tranzit</w>
+      <w>usetriggerrequirelookat</w>
       <w>usrpg</w>
       <w>waittill</w>
       <w>zclassic</w>

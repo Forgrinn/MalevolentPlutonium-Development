@@ -5,6 +5,7 @@
 #include common_scripts/utility;      //
 #include maps/mp/zombies/_zm_utility; //
 #include maps/mp/zombies/_zm;         //
+#include maps/mp/zombies/_zm_perks;   //
 ////////////////////////////////////////
 
 /////////////////////////////////////////////////
@@ -19,6 +20,21 @@
 #include scripts/zm/Chat/InitializeCommands; //
 ///////////////////////////////////////////////
 
+////////////////////////////////////////
+// Include Core Scripts               //
+////////////////////////////////////////
+#include scripts/zm/Core/CorePerks;   //
+#include scripts/zm/Core/CoreSpawner; //
+////////////////////////////////////////
+
+////////////////////////////////////////////
+// Include Hud Scripts                    //
+////////////////////////////////////////////
+#include scripts/zm/Hud/HudElementAmmo;   //
+#include scripts/zm/Hud/HudElementHealth; //
+#include scripts/zm/Hud/HudElementRound;  //
+////////////////////////////////////////////
+
 ///////////////////////////////////////////////
 // Include Utility Scripts                   //
 ///////////////////////////////////////////////
@@ -27,7 +43,7 @@
 ///////////////////////////////////////////////
 
 main() {
-    // Nothing here for now
+	replacefunc(::give_perk, ::give_perk_cwz);
 }
 
 init() {
@@ -46,10 +62,20 @@ initialize_player() {
     {
         level waittill("connected", player);
         player thread initialize_account();
+        player thread initialize_player_spawn(player);
+
+        player maps\mp\zombies\_zm_spawner::register_zombie_damage_callback(::core_last_zombie_hit);
     }
 }
 
-initialize_player_spawn() {
+initialize_player_spawn(player) {
     self endon("disconnect");
     level waittill("initial_blackscreen_passed");
+    self setClientUIVisibilityFlag("hud_visible", 0);
+
+    self.perk_hud_array = [];
+
+    player thread hud_element_health_initialize(player);
+    player thread hud_element_ammo_initialize(player);
+    player thread hud_element_round_initialize(player);
 }
